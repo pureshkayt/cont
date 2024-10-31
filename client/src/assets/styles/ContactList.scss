@@ -1,0 +1,56 @@
+.list-group-item {
+  border: none;
+}
+.contact-list {
+  .card {
+    width: 320px;
+    border-radius: 4px;
+    background-color: #ffffff;
+
+    h3 {
+      margin: 0;
+      padding: 21px;
+
+    }
+
+    .list-group {
+      border-radius: 0;
+    }
+
+    .list-group-item {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      border-top-left-radius: 0 !important;
+      border-top-right-radius: 0 !important;
+      border-bottom: 1px solid #d9d9d9;
+      background-color: transparent;
+      .names {
+        padding: 6px;
+      }
+      .tel {
+        font-size: 12px;
+      }
+
+      strong {
+        font-weight: 500;
+      }
+
+      button {
+        background-color: transparent;
+        color: #303030;
+        border: none;
+        font-size: 14px;
+        cursor: pointer;
+        padding: 0;
+        position: relative;
+        left: 4px;
+        bottom: 1px;
+
+        &:hover {
+          color: #c82333;
+        }
+      }
+    }
+  }
+}
